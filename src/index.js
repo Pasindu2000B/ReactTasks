@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import UserList from "./UserList";
+import Shpping_Cart from "./Shopping_Cart";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <UserList />
+    <Shpping_Cart />
   </React.StrictMode>
 );
 
